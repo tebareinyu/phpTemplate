@@ -3,6 +3,15 @@ jQuery(document).on("submit", "#login", function (event) {
 
   $("#botonlogin").addClass("disabled");
 
+  console.log("Iniciando sesión...");
+
+    // Verificar si el usuario respondió correctamente a la pregunta
+    const humanCheck = parseInt(jQuery("#human_check").val());
+    if (humanCheck !== 4) {
+      swal("Oops", "Respuesta incorrecta a la pregunta de verificación!", "error");
+      return;
+    }
+
   $.ajax({
     url: "controller/db/login.php",
     type: "POST",
