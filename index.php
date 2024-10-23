@@ -22,7 +22,7 @@ $num2=rand(1,10);
 
 
   <!-- CARD BLANCO -->
-  <div class="row center" style="margin-top: 25vh;">
+  <div class="row center" style="margin-top: 10vh;">
     <div class="col s12">
       <h4 style="color: black;">Payphie</h4>
       <h5 style="color: black;">Ingrese los siguientes datos:</h5>
