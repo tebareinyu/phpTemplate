@@ -16,7 +16,9 @@
     <div class="user-view" style="width: 100%;">
       <div class="row center">
         <div class="col s12">
-          <i class="fas fa-mountain  fa-7x"></i>
+          <i class="material-icons large iconColor">
+            account_balance_wallet
+          </i>
         </div>
       </div>
     </div>
@@ -28,9 +30,19 @@
   </li>
   <li><a class="subheader">Menu</a></li>
 
-  <li><a id="n1" href="./"><i id="i1" class="material-icons">menu</i>menu1</a></li>
-  <li><a id="n2" class="truncate" href=""><i id="i2" class="material-icons">menu</i>menu2</a></li>
-  <li><a id="n3" href="./usuario.php"><i id="i6" class="material-icons">menu</i>Usuario</a></li>
+  <li><a id="n1" href="./"><i id="i1" class="material-icons">web</i>Menu</a></li>
+  <li><a id="n2" class="truncate" href=""><i id="i2" class="material-icons">view_comfy</i>Datos</a></li>
+
+  <!-- Opciones del menu -->
+  <li>
+    <a id="n9" href="./usuario.php">
+      <!-- icono -->
+      <i id="i9" class="material-icons">face</i>
+      <!-- icono -->
+      Usuario
+    </a>
+  </li>
+  <!-- Opciones del menu -->
   <li><a id="n4" href="../controller/assets/salir.php"><i id="i5" class="material-icons">exit_to_app</i>Salir</a>
 
 </ul>
@@ -40,7 +52,7 @@
 <script type="text/javascript" charset="utf-8" async>
   let tipoUserV = $("#nivelUser").text();
 
-    console.warning("Bienvenido a la cosola", tipoUserV);
+  console.warning("Bienvenido a la cosola", tipoUserV);
 </script>
 
 
@@ -50,9 +62,9 @@
     <a class="brand-logo" href="#"><i id="ocultarnav" class="material-icons hide-on-med-and-down">fullscreen</i><?php echo (new DateTime())->format('l d \d\e F \d\e\l Y'); ?></a>
     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
-        <li><a class="busquedaglobal"><i class="material-icons left">search</i></a></li>
-        <li><a id="zonaBienvenido" class="truncate">Hola </a></li>
-        <li><a id="dropdownuser" class="dropdown-trigger" data-target="menuadmin"><i class="material-icons left white-text">face</i><?php echo $template_nombre; ?><i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="busquedaglobal"><i class="material-icons left">search</i></a></li>
+      <li><a id="zonaBienvenido" class="truncate">Hola </a></li>
+      <li><a id="dropdownuser" class="dropdown-trigger" data-target="menuadmin"><i class="material-icons left white-text">face</i><?php echo $template_nombre; ?><i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>

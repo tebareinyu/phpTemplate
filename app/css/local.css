@@ -11,7 +11,11 @@
 }
 
 .colorP{
-	background-color: #111 !important;
+	background-color: #033143 !important;
+}
+
+.iconColor{
+  color: #033143 !important;
 }
 
 .fontP{
@@ -27,7 +31,7 @@
 }
 
 .accentfP{
-  color: #111  !important;
+  color: #F08024  !important;
 }
 
 .grisC{

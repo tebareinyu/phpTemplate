@@ -1,8 +1,8 @@
 <?php
 
 setlocale(LC_ALL, "es_ES");
-$modulo = "Formulario";
-$nav = '0';
+$modulo = "Menu";
+$nav = '1';
 
 require_once "../controller/assets/svrurl.php";
 require_once "../controller/assets/validacion.php";

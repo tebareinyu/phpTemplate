@@ -1,8 +1,10 @@
 <?php
 
 setlocale(LC_ALL, "es_ES");
+
+//Variables de inicio
 $modulo = "Usuario";
-$nav = '0';
+$nav = '9';
 
 require_once "../controller/assets/svrurl.php";
 require_once "../controller/assets/validacion.php";
@@ -19,7 +21,7 @@ require_once "../controller/assets/session.php";
 <a id="tipodeusuario" class="hide"><?php echo $template_tipo ?></a>
 <!-- Usuario -->
 <?php
-////Requerir NAVMENU
+// Requerir NAVMENU
 require "../controller/assets/menunav.php";
 ?>
 
@@ -34,7 +36,6 @@ require "../controller/assets/menunav.php";
     </div>
 
 </div>
-<!--Datos-->
 <!-- BODDY -->
 
 <!-- SCRIPTS CARGA -->
@@ -45,7 +46,6 @@ require_once "../controller/assets/scripts.php";
 
 <!-- SCRIPTS -->
 <script>
-
 
 </script>
 <!-- SCRIPTS  -->
