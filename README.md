@@ -1,5 +1,8 @@
 # phpTemplate
-Template de PHP con Materialice, con MYSQL
+Template de PHP con Materialice y MYSQL
+
+Esteban Barrios
+payphie
 
 ```
 Template PHP

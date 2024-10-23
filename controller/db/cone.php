@@ -12,7 +12,7 @@ ob_start();
 
 		///datos Productivo
 		private $host = "localhost"; // servidor
-		private $dbname = "basededatos"; // nombre de la base de datos
+		private $dbname = "payphie"; // nombre de la base de datos
 		private $user = "root"; // usuario
 		private $pass = ""; // contraseña
 

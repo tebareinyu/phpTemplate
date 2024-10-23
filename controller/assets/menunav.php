@@ -51,7 +51,7 @@
     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
         <li><a class="busquedaglobal"><i class="material-icons left">search</i></a></li>
-        <li><a id="zonaBienvenido" class="truncate">Bienvenido</a></li>
+        <li><a id="zonaBienvenido" class="truncate">Hola </a></li>
         <li><a id="dropdownuser" class="dropdown-trigger" data-target="menuadmin"><i class="material-icons left white-text">face</i><?php echo $pm_nombre; ?><i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>

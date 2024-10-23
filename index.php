@@ -19,7 +19,7 @@ require_once "controller/assets/inicio.php";
   <!-- CARD BLANCO -->
   <div class="row center" style="margin-top: 25vh;">
     <div class="col s12">
-      <h4 style="color: black;">Login</h4>
+      <h4 style="color: black;">Payphie</h4>
       <h5 style="color: black;">Ingrese los siguientes datos:</h5>
     </div>
     <div class="col s8 offset-s4">
@@ -119,7 +119,7 @@ jQuery(document).on("submit", "#login", function (event) {
     .done(function (data) {
       if (data.acceso == "si") {
         console.log(data);
-        window.location.href = "view/dashboard.php";
+        window.location.href = "view/index.php";
 
         //swal ( "PM SCRUM" ,  "Bievenido al sistema" ,  "success" );
         jQuery("#botonlogin").removeClass("disabled");

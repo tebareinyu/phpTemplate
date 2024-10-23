@@ -14,7 +14,7 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
   $clave = mysqli_real_escape_string($conect->conectarBD(), $_POST['contra']);
 
 
-  $consulta = "SELECT * FROM user WHERE email='$usuario' and pass='$clave'";
+  $consulta = "SELECT * FROM usuarios WHERE mail='$usuario' and contra='$clave'";
 
   //mandar informacion a la base de datos
   $result = mysqli_query($conect->conectarBD(), $consulta);
@@ -24,7 +24,7 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 
   while ($row = $result->fetch_assoc()) {
     $template_nombre = $row['nombre'];
-    $template_email = $row['email'];
+    $template_email = $row['mail'];
     $template_tipo = $row['tipo'];
     $template_acceso = $row['acceso'];
   }

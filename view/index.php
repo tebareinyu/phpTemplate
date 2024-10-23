@@ -28,7 +28,66 @@ require "../controller/assets/menunav.php";
 
 <!-- BODDY -->
 <div id="bodysecon" class="row"> 
-  <h1>Hola Mundo</h1>
+  
+
+  <div class="row container">
+    <div class="col s12">
+    <h1>Hola Mundo</h1>
+    <form action="#">
+    <p>
+      <label>
+        <input type="checkbox" />
+        <span>Red</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" checked="checked" />
+        <span>Yellow</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" class="filled-in" checked="checked" />
+        <span>Filled in</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input id="indeterminate-checkbox" type="checkbox" />
+        <span>Indeterminate Style</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" checked="checked" disabled="disabled" />
+        <span>Green</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" disabled="disabled" />
+        <span>Brown</span>
+      </label>
+    </p>
+  </form>
+  <div class="divider"></div>
+  <div class="section">
+    <h5>Section 1</h5>
+    <p>Stuff</p>
+  </div>
+  <div class="divider"></div>
+  <div class="section">
+    <h5>Section 2</h5>
+    <p>Stuff</p>
+  </div>
+  <div class="divider"></div>
+  <div class="section">
+    <h5>Section 3</h5>
+    <p>Stuff</p>
+  </div>
+    </div>
+  </div>
 
 </div>
 <!--Datos-->
