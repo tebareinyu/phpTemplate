@@ -28,9 +28,9 @@
   </li>
   <li><a class="subheader">Menu</a></li>
 
-  <li><a id="n1" href=""><i id="i1" class="material-icons">menu1</i>menu1</a></li>
-  <li><a id="n2" class="truncate" href=""><i id="i2" class="material-icons">menu2</i>menu2</a></li>
-  <li><a id="n3" href=""><i id="i6" class="material-icons">menu4</i>menu4</a></li>
+  <li><a id="n1" href="./"><i id="i1" class="material-icons">menu</i>menu1</a></li>
+  <li><a id="n2" class="truncate" href=""><i id="i2" class="material-icons">menu</i>menu2</a></li>
+  <li><a id="n3" href="./usuario.php"><i id="i6" class="material-icons">menu</i>Usuario</a></li>
   <li><a id="n4" href="../controller/assets/salir.php"><i id="i5" class="material-icons">exit_to_app</i>Salir</a>
 
 </ul>

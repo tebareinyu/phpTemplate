@@ -29,7 +29,7 @@ require "../controller/assets/menunav.php";
 
     <div class="row container">
         <div class="col s12">
-            <h1>Hola Mundo</h1>
+            <h1>Hola Usuario</h1>
 
     </div>
 
