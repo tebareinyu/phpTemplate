@@ -10,6 +10,11 @@ $login->iniciologin();
 require_once "controller/assets/svrurl.php";
 require_once "controller/assets/inicio.php";
 
+//Numeros aleatorios
+$num1=rand(1,10);
+$num2=rand(1,10);
+
+
 ?>
 
 
@@ -49,12 +54,13 @@ require_once "controller/assets/inicio.php";
         <!-- Verificador humano -->
         <div class="col s12 m12">
           <div class="left">
-            <span class="black-text" style="font-size: 18px;">¿Cuánto es 2 + 2?</span>
+            <span class="black-text" style="font-size: 18px;">¿Cuánto es <?php echo $num1; ?> + <?php echo $num2; ?>?</span>
           </div>
         </div>
         <div class="col s12 m8">
           <div class="input-field col s11 m8">
             <input type="number" name="human_check" id="human_check" class="validate black-text login-input" required>
+            <input type="hidden" id="sum_result" value="<?php echo $num1 + $num2; ?>">            
           </div>
         </div>
          <!-- Verificador humano -->
@@ -95,7 +101,8 @@ jQuery(document).on("submit", "#login", function (event) {
 
   // Verificar si el usuario respondió correctamente a la pregunta
   const humanCheck = parseInt(jQuery("#human_check").val());
-  if (humanCheck !== 4) {
+  const sum_Check = parseInt(jQuery("#sum_result").val());
+  if (humanCheck !== sum_Check) {
     swal("Oops", "Respuesta incorrecta a la pregunta de verificación!", "error");
     return;
   }
