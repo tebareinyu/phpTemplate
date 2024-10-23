@@ -8,7 +8,7 @@
 <!--Menu Admin-->
 <!-- Dropdown Structure -->
 
-<a id="nivelUser" class="hide"><?php echo $pm_tipo ?></a>
+<a id="nivelUser" class="hide"><?php echo $template_tipo ?></a>
 
 <!-- NAV -->
 <ul id="slide-out" class="sidenav sidenav-fixed">
@@ -23,7 +23,7 @@
   </li>
   <li>
     <div class="user-view" style="padding: 0px 32px 0;">
-      <a><span class="black-text email"><strong><?php echo $pm_email; ?></strong></span></a>
+      <a><span class="black-text email"><strong><?php echo $template_email; ?></strong></span></a>
     </div>
   </li>
   <li><a class="subheader">Menu</a></li>
@@ -52,7 +52,7 @@
     <ul class="right hide-on-med-and-down">
         <li><a class="busquedaglobal"><i class="material-icons left">search</i></a></li>
         <li><a id="zonaBienvenido" class="truncate">Hola </a></li>
-        <li><a id="dropdownuser" class="dropdown-trigger" data-target="menuadmin"><i class="material-icons left white-text">face</i><?php echo $pm_nombre; ?><i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a id="dropdownuser" class="dropdown-trigger" data-target="menuadmin"><i class="material-icons left white-text">face</i><?php echo $template_nombre; ?><i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>

@@ -1,7 +1,7 @@
 <?php
 
 setlocale(LC_ALL, "es_ES");
-$modulo = "Formulario";
+$modulo = "Usuario";
 $nav = '0';
 
 require_once "../controller/assets/svrurl.php";
@@ -27,11 +27,11 @@ require "../controller/assets/menunav.php";
 <div id="bodysecon" class="row">
 
 
-  <div class="row container">
-    <div class="col s12">
-      <h1>Hola Mundo</h1>
+    <div class="row container">
+        <div class="col s12">
+            <h1>Hola Mundo</h1>
 
-  </div>
+    </div>
 
 </div>
 <!--Datos-->
