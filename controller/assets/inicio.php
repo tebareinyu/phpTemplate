@@ -28,6 +28,7 @@ if (!isset($modulo)) {
       <link type="text/css" href="<?php echo SERVERURL; ?>app/css/local.css" rel="stylesheet" media="screen,projection" />
       <link type="text/css" href="<?php echo SERVERURL; ?>app/css/animate.css" rel="stylesheet"/>
       <link type="text/css" href="<?php echo SERVERURL; ?>app/css/fa/css/all.css" rel="stylesheet"/>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/jquery.dataTables.min.css"/>
       <script type="text/javascript" src="<?php echo SERVERURL; ?>app/js/jquery-3.2.1.min.js"></script>
       <!--Let browser know website is optimized for mobile-->

@@ -5,6 +5,8 @@
       <script type="text/javascript" src="<?php echo SERVERURL; ?>app/js/masonry.min.js"></script>
       <script type="text/javascript" src="<?php echo SERVERURL; ?>app/js/materialize.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+	  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 	    <script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
       <script type="text/javascript">
 

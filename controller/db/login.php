@@ -23,6 +23,7 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
   $filas = mysqli_num_rows($result);
 
   while ($row = $result->fetch_assoc()) {
+    $template_id = $row['id'];
     $template_nombre = $row['nombre'];
     $template_email = $row['mail'];
     $template_tipo = $row['tipo'];
@@ -52,6 +53,7 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 
       SESSION_START(['cookie_lifetime' => 0,]);
 
+      $_SESSION['template_id'] = $template_id;
       $_SESSION['template_nombre'] = $template_nombre;
       $_SESSION['template_email'] = $template_email;
       $_SESSION['template_tipo'] = $template_tipo;

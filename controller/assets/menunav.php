@@ -16,9 +16,7 @@
     <div class="user-view" style="width: 100%;">
       <div class="row center">
         <div class="col s12">
-          <i class="material-icons large iconColor">
-            account_balance_wallet
-          </i>
+          <img width="60%" src="../docs/iconos/icono.webp">
         </div>
       </div>
     </div>
@@ -52,7 +50,7 @@
 <script type="text/javascript" charset="utf-8" async>
   let tipoUserV = $("#nivelUser").text();
 
-  console.warning("Bienvenido a la cosola", tipoUserV);
+  console.info("Bienvenido a la cosola", tipoUserV);
 </script>
 
 
